@@ -1,0 +1,523 @@
+
+body{
+    margin: 0px;
+}
+
+/*........................................NAVBAR SETTINGS/..............................*/
+
+
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 30px;
+    background-color: #F7FCFF;
+ 
+}
+
+.page-links{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 500;
+    color: rgba(64, 64, 65, 1);
+    text-align: center;
+    width: 270px;
+    font-family: Roboto;
+}
+
+.nav-img{
+    width: 50px;
+    height: 50px;
+}
+
+.logo{
+    height: 15px;
+width: 83px;
+    margin-left: -100px;
+}
+
+/*.........................................HERO SECTION....................................*/
+
+.hero{
+    background-color: #F7FCFF;
+    display: flex;
+    padding: 65px;
+    
+}
+.header-card{
+    height: 421.99993896484375px;
+width: 724px;
+left: 620px;
+top: 120px;
+
+
+}
+.header-text{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: flex-start;
+}
+
+.header-title{
+    font-family: Bai Jamjuree;
+font-size: 80px;
+font-weight: 700;
+text-align: left;
+
+font-family: Bai Jamjuree;
+font-size: 80px;
+font-weight: 700;
+text-align: left;
+margin-block-start: 0em;
+margin-block-end: 0em;
+width: 500px;
+
+
+}
+.more{
+   height: 70px;
+    position: absolute;
+width: 205px;
+left: 60px;
+top: 281px;
+
+}
+
+.header-desc{
+    font-family: Roboto;
+font-size: 18px;
+font-weight: 400;
+    color: #535354;
+    height: 60px;
+width: 280px;
+     margin-block-start: 0.5em;
+    margin-block-end: 0em;
+}
+
+.getcardbtn{
+    height: 60px;
+width: 60px;
+    
+}
+.getcard{
+    font-family: Roboto;
+font-size: 19px;
+font-weight: 500;
+text-align: left;
+    color: #222223;
+}
+
+.get{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+/*.................................................DEALS SECTION...............................*/
+.deals{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 90px;
+    background-color: #F7FCFF;
+}
+
+.hot-deals-title{
+    font-family: Bai Jamjuree;
+font-size: 35px;
+font-weight: 700;
+text-align: left;
+    color: rgba(34, 34, 35, 1);
+width: 221px;
+        margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+.fire{
+    position: absolute;
+    height: 35px;
+width: 35px;
+    bottom: 208px;
+    left: 150px;
+}
+.hot-deals-desc{
+    font-family: Roboto;
+font-size: 16px;
+font-weight: 400;
+text-align: left;
+color: #5F5F64;
+width: 233px;
+}
+
+.deals-icon{
+    height: 35px;
+width: 32px;
+}
+.deals-card-title{
+    font-family: Inter;
+font-size: 20px;
+font-weight: 700;
+text-align: left;
+    color: #17181A;
+
+
+}
+.deals-card-desc{
+    font-family: Roboto;
+font-size: 16px;
+font-weight: 400;
+text-align: left;
+color: #5F5F64;
+    width: 188px;
+}
+
+/*........................................SOCIAL MEDIA PART................................*/
+
+.socialmedia{
+  background: #D0EDFF;
+display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px 300px ;
+    position: relative;
+
+}
+
+.part-title{
+    font-family: Bai Jamjuree;
+font-size: 30px;
+font-weight: 500;
+text-align: left;
+color: #202020;
+    width: 
+261px;
+        margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+
+.part-desc{
+    font-family: Roboto;
+font-size: 16px;
+font-weight: 400;
+text-align: left;
+color: #5F5F64;
+width: 
+256px;
+}
+
+.part-title.two{
+    width: 
+264px;
+}
+.ellipse{
+    height: 70px;
+width: 70px;
+    position: absolute;
+    right: 700px;
+    top: -35px;
+
+}
+
+/*...................................Details Section.................................*/
+
+.details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+    background-color: #F8FCFF;
+}
+.details-title{
+    font-family: Bai Jamjuree;
+font-size: 80px;
+font-weight: 700;
+text-align: center;
+    color: #0D1111;
+    margin-block-start: 1em;
+    margin-block-end: 0em;
+}
+
+.details-desc{
+    font-family: Roboto;
+font-size: 16px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: center;
+color: #767E7E;
+    width: 
+641px;
+ 
+}
+
+.details-outline{
+    display: flex;
+    
+}
+.outline-title{
+font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+color: #718176;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+
+.figure{
+    font-family: Roboto;
+font-size: 25px;
+font-weight: 400;
+     margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+
+.outline-one{
+ border-bottom: 1px solid #909C92;
+    border-right: 2px solid #909C92;
+    border-top: 2px solid #909C92;
+    padding: 40px 50px;
+}
+
+.outline-two{
+ border-bottom: 1px solid #909C92;
+    border-right: 2px solid #909C92;
+    border-top: 2px solid #909C92;
+    padding: 40px 50px;
+}
+
+.outline-three{
+ border-bottom: 1px solid #909C92;
+    border-right: 2px solid #909C92;
+    border-top: 2px solid #909C92;
+    padding: 40px 50px;
+}
+.outline-four{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+ border-bottom: 1px solid #909C92;
+    
+    border-top: 2px solid #909C92;
+    padding: 10px 50px;
+}
+
+
+/*......................................................YOURWORK SECTION>*/
+
+.your-work{
+    display: flex;
+   
+    align-items: flex-start;
+padding: 70px 40px;
+    background-color: #F8FCFF;
+}
+.work-img{
+    height: 507px;
+width: 675px;
+}
+.your-work-text{
+    width: 458px;
+    margin-left: 70px;
+}
+
+.your-work-text-title{
+    font-family: Bai Jamjuree;
+font-size: 52px;
+font-weight: 600;
+  margin-block-start: 0em;
+    margin-block-end: 0em;
+text-align: left;
+color: #192430;
+
+}
+
+
+
+.your-work-text-desc{
+    font-family: Roboto;
+font-size: 16px;
+font-weight: 400;
+color: #727272;
+text-align: left;
+}
+
+.strategic{
+    display: flex;
+    margin-top: 20px;
+    
+}
+.strategic-img{
+    height: 80px;
+width: 80px;
+}
+
+.strategic-title{
+    font-family: Bai Jamjuree;
+font-size: 20px;
+font-weight: 600;
+text-align: left;
+color: #222222;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+
+.strategic-desc{
+    font-family: Roboto;
+font-size: 15px;
+font-weight: 400;
+color: #727272;
+text-align: left;
+    margin-block-start: 0.5em;
+    margin-block-end: 0em;
+
+}
+
+/*.............................................Subscribe ..............................................*/
+
+.subscribe{
+    background-color: #41B3F4;
+    display: flex;
+      align-items: center;
+    padding-left: 100px;
+    
+
+}
+.subscribe-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width:  691.8px;
+}
+.credit-card{
+    height: 650px;
+width: 692px;
+}
+
+.play-text{
+    height: 96px;
+width: 96px;
+
+}
+.subscribe-update{
+    height: 81px;
+width: 120px;
+color: #414449;
+    font-family: Roboto;
+font-size: 18px;
+font-weight: 700;
+text-align: left;
+ margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+
+.subscribe-divider{
+    background: #718176;
+width: 8px;
+height: 133px;
+}
+
+.newsletter-text{
+font-family: Bai Jamjuree;
+font-size: 60px;
+font-weight: 700;
+text-align: left;
+height: 140px;
+width: 430px;
+}
+
+.subs-button{
+    background: #E15C19;
+height: 58px;
+width: 160px;
+    border: 0px;
+    color: white;
+    font-family: Roboto;
+font-size: 16px;
+font-weight: 500;
+}
+
+/*..............................................FOOTER.........................................*/
+
+footer{
+   padding: 50px 100px; 
+}
+.footer1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.sign-links{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    font-family: Roboto;
+font-size: 14px;
+font-weight: 700;
+line-height: 20px;
+letter-spacing: 0.01em;
+text-align: center;
+    color: #404041;  
+}
+
+.login{
+    margin-left: 40px;
+}
+.socials{
+    display: flex;
+    justify-content: space-between;
+    width: 60px;
+    align-items: center;
+}
+.facebook{
+    height: 12px;
+width: 6px;
+}
+.insta{
+    height: 12.018657684326172px;
+width: 12px;
+}
+.youtube{
+    height: 9px;
+width: 13px;
+}
+
+.footer2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 40px;
+    margin-top: 50px;
+}
+.copyright{
+    font-family: Roboto;
+font-size: 12px;
+font-weight: 400;
+color: #1B1B1B59;
+
+}
+
+.footer-divider{
+    height: 0px;
+width: 661px;
+border: 1px solid #565B58;
+}
+
+.designed{
+    font-family: Roboto;
+font-size: 12px;
+font-weight: 400;
+text-align: right;
+    color: #7B827D;
+}
+
